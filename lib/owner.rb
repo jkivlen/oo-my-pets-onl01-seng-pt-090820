@@ -14,6 +14,11 @@ class Owner
     @@all
   end
   
+  def self.count
+    @@all.count
+  end
+  
+  
   def name
     @name
   end
