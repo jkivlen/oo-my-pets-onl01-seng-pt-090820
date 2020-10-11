@@ -19,7 +19,7 @@ class Owner
   end
   
   class self.reset
-    @@all.clear
+    @@all.
   end
   
   
