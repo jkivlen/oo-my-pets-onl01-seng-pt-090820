@@ -65,5 +65,11 @@ class Owner
     pet.owner = nil}
   end
   
+  def list_pets
+    
+    
+  end
+  
+  
   
 end
