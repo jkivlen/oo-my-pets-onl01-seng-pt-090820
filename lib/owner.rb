@@ -22,7 +22,6 @@ class Owner
     @@all.clear
   end
   
-  
   def name
     @name
   end
@@ -35,6 +34,9 @@ class Owner
     "I am a #{species}."
   end
   
+  def cats
+    self.all.cats
+  end
   
   
 end
