@@ -18,6 +18,10 @@ class Owner
     @@all.count
   end
   
+  class self.reset
+    @@all.clear
+  end
+  
   
   def name
     @name
